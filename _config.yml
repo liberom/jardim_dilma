@@ -1,0 +1,25 @@
+title: Jardim da Dilma
+author: liberom
+email: liberom@email.com
+description: >-
+  Descrição sobre o site.
+
+languages: ["pt", "en"]
+
+social:
+  twitter: dilmajardim
+  facebook: dilmajardim
+  instagram: dilmajardim
+  github: dilmajardim
+  linkedin:
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-multiple-languages-plugin
+
+collections:
+  images:
+    output: true

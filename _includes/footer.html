@@ -1,0 +1,38 @@
+<footer id="footer" class="panel">
+  <div class="inner split">
+    <div>
+      <section>
+        <h2>{{ site.title }}</h2>
+        <p>{{ site.description }}</p>
+      </section>
+      {%- include social.html -%}
+      <!-- Copyright
+      <p class="copyright">
+        &copy; <a href="mailto:{{ site.email }}">{{ site.author }}</a>. Design: <a href="http://html5up.net">HTML5 UP</a>.
+      </p>
+      -->
+    </div>
+    <div>
+      <section>
+        <h2>Entre em contato</h2>
+        <form method="post" action="#">
+          <div class="fields">
+            <div class="field half">
+              <input type="text" name="name" id="name" placeholder="Nome" />
+            </div>
+            <div class="field half">
+              <input type="text" name="email" id="email" placeholder="Email" />
+            </div>
+            <div class="field">
+              <textarea name="message" id="message" rows="4" placeholder="Mensagem"></textarea>
+            </div>
+          </div>
+          <ul class="actions">
+            <li><input type="submit" value="Enviar" class="primary" /></li>
+            <li><input type="reset" value="Reiniciar" /></li>
+          </ul>
+        </form>
+      </section>
+    </div>
+  </div>
+</footer>
